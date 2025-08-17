@@ -1,6 +1,6 @@
 // ✅ Shallow Copy (only first level is copied)
 let user1 = {
-  name: "Rahul",
+  name: "Sagar",
   address: { city: "Nepal" },
 };
 
