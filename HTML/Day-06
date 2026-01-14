@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Day 6</title>
+</head>
+<body>
+
+    <h1>HTML Day 6 Practice</h1>
+
+    <!-- FORM -->
+    <h2>Registration Form</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter name"><br><br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter email"><br><br>
+
+        <label>Password:</label>
+        <input type="password"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female <br><br>
+
+        <label>Skills:</label>
+        <input type="checkbox"> HTML
+        <input
