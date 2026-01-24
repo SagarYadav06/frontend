@@ -1,0 +1,58 @@
+/* Element selector */
+p {
+  color: blue;
+}
+
+/* Class selector */
+.box {
+  background-color: lightgray;
+}
+
+/* ID selector */
+#title {
+  font-size: 24px;
+  color: red;
+}
+body {
+  background-color: #f4f4f4;
+}
+
+.card {
+  background-color: white;
+  color: #333;
+}
+.box {
+  width: 200px;
+  height: 150px;
+
+  padding: 20px;
+  margin: 15px;
+
+  border: 2px solid black;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
