@@ -6,7 +6,7 @@ function Counter() {
   const dispatch = useDispatch();
 
   return (
-    <div className="text-center space-y-4">
+    <div className="text-center space-y-5">
       <h1 className="text-3xl font-bold">Redux Counter: {count}</h1>
       <div className="space-x-4">
         <button onClick={() => dispatch(increment())} className="bg-green-500 text-white px-4 py-2 rounded">+</button>
